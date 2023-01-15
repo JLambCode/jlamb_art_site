@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "includes/head.php";?>
-<?php include "includes/body.php";?>
+<?php require "includes/head.php";?>
+<?php require "includes/body.php";?>
 
 </html>
