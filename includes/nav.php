@@ -16,9 +16,9 @@
                             Joe
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="joe_about.php">About</a></li>
-                            <li><a class="dropdown-item" href="joe_art.php">Art</a></li>
-                            <li><a class="dropdown-item" href="joe_blog.php">Blog</a></li>
+                            <li><a class="dropdown-item" href="joe/about.php">About</a></li>
+                            <li><a class="dropdown-item" href="joe/art.php">Art</a></li>
+                            <li><a class="dropdown-item" href="joe/blog.php">Blog</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -26,9 +26,9 @@
                             Juliana
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="juliana_about.php">About</a></li>
-                            <li><a class="dropdown-item" href="juliana_art.php">Art</a></li>
-                            <li><a class="dropdown-item" href="juliana_blog.php">Blog</a></li>
+                            <li><a class="dropdown-item" href="juliana/about.php">About</a></li>
+                            <li><a class="dropdown-item" href="juliana/art.php">Art</a></li>
+                            <li><a class="dropdown-item" href="juliana/blog.php">Blog</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -36,14 +36,14 @@
                             Jeremy
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="jeremy_about.php">About</a></li>
-                            <li><a class="dropdown-item" href="jeremy_art.php">Art</a></li>
-                            <li><a class="dropdown-item" href="jeremy_blog.php">Blog</a></li>
+                            <li><a class="dropdown-item" href="jeremy/about.php">About</a></li>
+                            <li><a class="dropdown-item" href="jeremy/art.php">Art</a></li>
+                            <li><a class="dropdown-item" href="jeremy/blog.php">Blog</a></li>
                         </ul>
                     </li>
 
                     <?php 
-                        if($admin == true){
+                        if(isset($_SESSION['user_role']) == 'Admin'){
                             echo '<li><div class="d-flex m-1">
                                         <a class="btn btn-outline-info" href="admin_console.php" role="button">
                                             Admin Console
@@ -53,7 +53,7 @@
                     ?>
 
                     <?php 
-                        if($admin == true){
+                        if(isset($_SESSION['user_role']) == 'Admin'){
                             echo '<li><div class="d-flex m-1">
                                         <button class="btn btn-outline-danger" type="button">
                                             Logout
