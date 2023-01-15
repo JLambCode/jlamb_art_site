@@ -1,3 +1,7 @@
+<?php 
+    $admin = false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
