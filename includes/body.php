@@ -1,12 +1,12 @@
-<body>
+<body class=".bg-dark.bg-gradient">
     
 <?php require "includes/nav.php";?>
 <?php require "includes/landing.php";?>
 
-<footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>Copyright &copy; JLamb Dev & Design 2022</p>
+<footer class="container">
+    <div class="row align-items-center">
+        <div class="col-lg-12 text-center">
+            <h4>Copyright &copy; JLamb.Art 2023</h4>
         </div>
     </div>
 </footer>
