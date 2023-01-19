@@ -41,6 +41,16 @@
                             <li><a class="dropdown-item" href="jeremy/blog.php">Blog</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Collabs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="collabs/about.php">About</a></li>
+                            <li><a class="dropdown-item" href="collabs/art.php">Art</a></li>
+                            <li><a class="dropdown-item" href="collabs/blog.php">Blog</a></li>
+                        </ul>
+                    </li>
 
                     <?php 
                         if(isset($_SESSION['user_role']) == 'Admin'){
