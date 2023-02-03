@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid m-3">
         <a href="landing.php" class="navbar-brand"><img src="" alt="JLamb Art Logo"></a>
         <div class="d-flex justify-content-end">
@@ -71,7 +71,7 @@
                                     </div></li>';
                         } else {
                             echo '<li><div class="d-flex m-1">
-                                    <button class="btn btn-outline-dark" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                    <button class="btn btn-outline-light" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
                                         Login
                                     </button>
                                   </div></li>';

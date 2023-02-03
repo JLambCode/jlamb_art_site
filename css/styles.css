@@ -24,7 +24,6 @@ html {
 }
 
 body {
-    background-color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -32,7 +31,11 @@ body {
     transition: 0.25s;
 }
 
+.landing-img {
+    border-radius: 3rem;
+    
+}
 
 .landing-img:hover {
-    
+    cursor: pointer;
 }

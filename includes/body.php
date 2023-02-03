@@ -1,4 +1,4 @@
-<body class=".bg-dark.bg-gradient">
+<body data-bs-theme="dark">
     
 <?php require "includes/nav.php";?>
 <?php require "includes/landing.php";?>
